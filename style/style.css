@@ -1,0 +1,2025 @@
+html, body{
+    font-family: "Nunito Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    /*height: auto;*/
+}
+
+.container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 100%;
+    height: auto !important;   
+    width: 100%;
+    margin: 0 auto;
+}
+
+.btn {
+    width: 139px;
+    height: 47px;
+    background-color: #fff;
+    border-radius: 23px;
+    font-family: "DM Sans", sans-serif;
+    border: none;
+    /*margin-right: 150px;*/
+}
+
+.btn:hover {
+    width: 139px;
+    height: 47px;
+    background-color: rgba(255, 255, 255, 0.829);
+    border-radius: 23px;
+    font-family: "DM Sans", sans-serif;
+    /*margin-right: 150px;*/
+}
+
+.btn-m {
+    width: 248px;
+    height: 48px;
+    background-color: #fff;
+    border-radius: 23px;
+    /*position: relative;*/
+    /*margin-right: 150px;*/
+    margin-top: 35px;
+    font-size: 20px;
+    /*padding-left: 30px;*/
+    text-align: center;
+    align-items: center;
+    display: flex;
+    order: 0;
+}
+
+.btn-m:hover {
+    width: 248px;
+    height: 48px;
+    background-color: rgba(255, 255, 255, 0.829);
+    border-radius: 23px;
+    /*position: relative;*/
+    /*margin-right: 150px;*/
+    margin-top: 35px;
+    font-size: 20px;
+    /*padding-left: 30px;*/
+    text-align: center;
+    align-items: center;
+    display: flex;
+    order: 0;
+}
+
+.btn-m-m {
+    width: 248px;
+    height: 48px;
+    background-color: #fff;
+    border-radius: 23px;
+    /*margin-right: 150px;*/
+    margin-top: 15px;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    order: 0;
+}
+
+.btn-m-m-black {
+    width: 248px;
+    height: 48px;
+    background-color: #0C0C0C;
+    color: #fff;
+    border-radius: 23px;
+    /*margin-right: 150px;*/
+    margin-top: 74px;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    order: 0;
+    margin-left: 410px;
+    margin-bottom: 51px;
+}
+
+
+.btn-m-m-black:hover {
+    width: 248px;
+    height: 48px;
+    background-color: #0c0c0ccc;
+    color: #fff;
+    border-radius: 23px;
+    /*margin-right: 150px;*/
+    margin-top: 74px;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    order: 0;
+    margin-left: 410px;
+    margin-bottom: 51px;
+}
+
+.btn-footer:hover {
+    width: 118px;
+    height: 47px;
+    background-color: #0c0c0ccc;
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    border-radius: 20px;
+    /*float: right;*/
+    margin: 10px;
+    border: none;
+    transform: translateX(-140px);
+    margin-top: 13px;
+}
+
+.col-1 {
+    margin-top: -200px;
+}
+
+.face {
+    margin-top: 45px;
+    margin: 0 auto;
+}
+
+.h2-face {
+    font-family: "Roboto Serif", serif;
+    font-size: 25px;
+
+}
+
+.h3-who {
+    font-family: "Roboto Serif", serif;
+    font-size: 20px;
+}
+
+.p-face {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+}
+
+.seven {
+    width: 1400px;
+    background-color: #F4F4F4;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 111px;
+}
+
+.seven-div {
+    width: 1310px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.slider{
+    align-items: center;
+    text-align: center;
+    margin-top: 21px;
+}
+
+.btn-m-m:hover {
+    width: 248px;
+    height: 48px;
+    background-color: rgba(255, 255, 255, 0.829);;
+    border-radius: 23px;
+    /*margin-right: 150px;*/
+    margin-top: 15px;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    order: 0;
+}
+
+.arr {
+    margin-left: -5px;
+    /*top: 50%;
+    transform: translateY(-50%);*/
+    padding: 10px;
+}
+
+.a {
+    margin-left: 30px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.h6 {
+    color: #64CCC5;
+    font-size: 20px;
+    margin-top: 181px;
+    font-family: "Roboto Serif", serif;
+}
+
+.brands {
+    width: 694px;
+    margin-top: -50px;
+    margin-bottom: 123px;
+}
+
+.greenish {
+    margin-bottom: 18px;
+}
+
+.automation {
+    margin-left: 26px;
+}
+
+.bars-solid {
+    width: 30px;
+}
+
+.round {
+    max-width: 850px;/*850px*/
+    max-height: 850px;/*850px*/
+    align-items: end;
+    padding-right: 0;
+    margin-top: 150px;
+}
+
+.header {
+    height: 91px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    justify-content: space-between;
+    background-color: #0C0C0C;
+    
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 306px;
+    align-items: center;
+    /*padding-left: 220px;*/
+
+}
+
+.second {
+    height: auto;
+    background-color: #fff;
+    margin-top: 80px;
+    margin-bottom: 117px;
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.h5{
+    color: #64CCC5;
+    font-size: 30px;
+    font-family: "Roboto Serif", serif;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.h3{
+    color: #64CCC5;
+    font-size: 30px;
+    font-family: "Roboto Serif", serif;
+    margin-bottom: 24px;
+}
+
+.h3-h3{
+    color: #64CCC5;
+    font-size: 30px;
+    font-family: "Roboto Serif", serif;
+    margin-bottom: 24px;
+    margin-top: 80px;
+}
+
+.h4-black {
+    font-size: 25px;
+    width: 232px;
+    color: #fff;
+    margin-left: 45px;
+    font-family: "Roboto Serif", serif;
+    font-weight: normal;
+}
+
+.h4 {
+    font-size: 25px;
+    width: 232px;
+    color: #000;
+    margin-left: 45px;
+    font-family: "Roboto Serif", serif;
+    font-weight: normal;
+}
+
+.p-card-black {
+    font-size: 18px;
+    width: 332px;
+    color: #fff;
+    margin-left: 45px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: lighter;
+}
+
+.p-card-about {
+    font-size: 18px;
+    width: 568px;
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+    font-weight: lighter;
+    margin-top: -30px;
+}
+
+.otstup{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 100px auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 1400px;
+}
+
+.p-card {
+    font-size: 18px;
+    width: 332px;
+    color: #000;
+    margin-left: 45px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: lighter;
+}
+
+.kartocki {/*Здесь проблема!*/
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1400px;
+}
+
+.six-div {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1400px;
+}
+
+.h4-podkar{
+    font-family: "Roboto Serif", serif;
+    font-size: 30px;
+}
+
+.p-podkar {
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+}
+
+.img-podkart {
+    margin-bottom: -30px;
+}
+
+.img-podkart:hover {
+    margin-bottom: -30px;
+    transform: scale(1.01);
+}
+
+
+
+.p-podkar {
+    margin-top: -30px;
+    margin-bottom: 88px;
+}
+
+/*.link {}*/
+
+.kartochka {
+    margin-top: 80px;
+}
+
+.kartochka-r {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1400px;
+}
+
+.four-five {
+    font-family: "Roboto Serif", serif;
+    font-size: 30px;
+    background-color: #fff;
+}
+
+.four-five-r {
+    font-family: "Roboto Serif", serif;
+    font-size: 25px;
+    background-color: #fff;
+}
+
+.img-with-text {
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -43px;
+    position: absolute;
+}
+
+.white-p {
+    font-family: "DM Sans", sans-serif;
+    font-weight: lighter;
+    margin: 70px auto;
+}
+
+.our {
+    margin-bottom: 117px;
+}
+
+.our-r {
+    align-items: center;
+}
+
+.three {
+    margin: 0 auto;
+    width: auto;
+    background-color: #000;
+    height: auto;
+    align-items: center;
+}
+
+.about {
+    width: 744px;
+    height: 703px;
+}
+
+.black {
+    width: 422px;
+    height: 368px;
+    background-color: #0C0C0C;
+    border-radius: 20px;
+}
+
+.white {
+    width: 422px;
+    height: 368px;
+    background-color: #F4F4F4;
+    border-radius: 20px;
+}
+
+.pen {
+    margin-top: 45px;
+    margin-left: 45px;
+}
+
+.p-text {
+    text-align: center;
+    font-family: "Roboto Serif", serif;
+    font-size: 64px;
+    max-width: 695px;
+    margin: 0 auto;
+}
+
+.p-text-g {
+    text-align: center;
+    font-family: "Roboto Serif", serif;
+    font-size: 64px;
+    max-width: 695px;
+    margin: 0 auto;
+    padding-top: 91px;
+    padding-bottom: 86px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+}
+
+.menu a:hover {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.397);
+}
+
+.cart-search{
+
+    width: 139px;
+    /*padding-left: 327px;*/
+    margin-right: 350px; /*150*/
+    height: 47px;
+}
+
+.text {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.text-j {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.logo-header {
+    padding-left: 350px;/*150px*/
+    padding-top: 26px;
+    padding-bottom: 30px;
+    max-height: 40px;
+}
+
+.logo-footer {
+    padding-top: 49px;
+}
+
+.big-text{
+    color: #1B1A1A;
+    font-size: 36px;
+    margin-top: 43px;
+}
+
+.small-text {
+    color: #5E5E5E;
+    font-size: 18px;
+}
+
+.ho{
+
+}
+
+.main {
+    background-repeat: no-repeat;
+}
+
+.section {
+    margin: 0 auto;
+    width: auto;
+    background-color: #0C0C0C;
+    /*max-width: 1041px;*/
+    flex-grow: 1;
+    /*margin-top: 125px;*/
+    margin-bottom: 95px;
+    margin-top: -130px;
+}
+
+.p-pod-logo {
+    color: #fff;
+    width: 357px;
+    
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+
+}
+
+.logotip {
+}
+
+.div-pages {
+    /*margin: 0 auto;*/
+    font-size: 18px;
+}
+
+p {
+
+}
+
+.pod-div {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1400px;
+}
+
+.input {
+    width: 433px;
+    height: 67px;
+    border-radius: 40px;
+    color: #000;
+    background-color: #fff;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    padding-left: 23px;
+}
+
+.inputs {
+    margin-right: -140px;
+}
+
+.btn-footer {
+    width: 118px;
+    height: 47px;
+    background-color: #0C0C0C;
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    border-radius: 20px;
+    /*float: right;*/
+    margin: 10px;
+    border: none;
+    transform: translateX(-140px);
+    margin-top: 13px;
+}
+
+.pod-pod-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1400px;
+}
+
+.h{
+
+}
+
+.h2-pages {
+    color: #fff;
+    margin-top: 0;
+    font-family: "Roboto Serif", serif;
+    font-size: 20px;
+}
+
+.p-pages {
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.inputy {
+    display: flex;
+}
+
+.footer {
+    height: auto;
+    background-color: #0C0C0C;
+    /*text-align: center;*/
+}
+
+.social {
+    width: 208px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 29px;
+}
+
+.mes {
+    width: 50px;
+    height: 50px;
+}
+
+.h2-block {
+    color: #fff;
+    margin-top: 29px;
+    font-family: "Roboto Serif", serif;
+    font-size: 20px;
+}
+.p-block {
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    margin-top: 16px;
+    margin-bottom: 60px;
+}
+
+.adress {
+    width: 319px;
+}
+
+.block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1400px;
+}
+
+/*.copyright .contact-us .adress .social {
+    margin: 0 auto;
+}*/
+
+.footer p {
+    line-height: 10px;
+}
+
+.email {
+    width: 275px;
+    height: 37px;
+    font-size: 12px;
+    border-radius: 4px;
+    border-color: #5A5A5A;
+    background-color: rgba(0, 0, 0, 0);
+    padding-left: 13px;
+    border-style: solid;
+    border-width: 0.8px;
+    color: #8E8E8E;
+}
+
+.sub {
+    width: 127px;
+    height: 41px;
+    font-size: 12px;
+    border-radius: 4px;
+    border-color: #5A5A5A;
+    background-color: rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-width: 0.8px;
+    color: #1B1A1A;
+}
+
+.sub:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+/**/
+
+.card {
+    width: 270px;
+    height: 258px;
+    background-color: #F7F7F7;
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.301);
+    text-align: center;
+    margin: 241px auto 0;
+    position: relative;
+    order: -1;
+    margin-top: 10px;
+}
+
+.image {
+    margin-top: 20px;
+    order: -1;
+    max-width: 103px;
+    max-height: 146px;
+    align-items: center;
+    /*display: flex;*/
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.image-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.stars {
+    max-width: 183px;
+    max-height: 192px;
+    padding-top: 300px;
+}
+
+.h2 {
+    font-family: "Roboto Serif", serif;
+    font-size: 64px;
+    font-weight:  600px;
+    max-width: 609px;
+    color: #fff;
+    /*padding-top: 186px;
+    /*margin-left: 108px;*/
+}
+
+.h2-h2 {
+    font-family: "Roboto Serif", serif;
+    font-size: 64px;
+    font-weight:  600px;
+    max-width: 609px;
+    color: #fff;
+    /*padding-top: 186px;
+    /*margin-left: 108px;*/
+    margin-top: -7px;
+}
+
+.golyboj {
+    font-family: "Roboto Serif", serif;
+    font-size: 64px;
+    font-weight:  600;
+    color: #64CCC5;
+    margin-top: -3px;
+}
+
+.podgolyboj {
+    color: #fff;
+    width: 147px;
+    margin-top: -35px;
+}
+
+.podkartochki { /*Здесь проблема!*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 356px;
+}
+
+.white-cards {
+    width: 269px;
+    height: 207px;
+    border: 3px solid #F4F4F4;
+    border-radius: 30px;
+}
+
+.img-with-text {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 210px;
+}
+
+.white-p {
+    width: 195px;
+    font-size: 16px;
+}
+
+.div {
+    align-items: flex-start;
+    margin-left: 108px;
+    max-width: 609px;
+    margin-top: 300px;
+    /*margin-top: 200px;/*его не было изначально*/
+}
+
+.p {
+    color: #fff;
+    max-width: 557px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.span {
+    color: #64CCC5;
+}
+
+.black-rectangle {
+    width: 240px;
+    height: 33px;
+    background-color: black;
+    /*position: absolute;*/
+    /*bottom: 10px;*/
+    left: 50%;
+    transform: translate(-50%, -50%);
+    order: 3;
+    top: calc(50%-17px);
+    order: -1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -20px;
+}
+
+.card-sale {
+    order: -1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1141px;
+}
+
+.g {
+    text-decoration-line: line-through;
+    color: #737373;
+}
+
+.r {
+    color: #000;
+    margin-left: 13px;
+}
+
+.texti {
+    position: absolute;
+    color: #0C0C0C
+}
+
+.line {
+    width: 1400px;
+    height: 1px;
+    background-color: #F4F4F4;
+    margin-top: 101px;
+}
+
+.q {
+    color: #000;
+}
+
+.text-style{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: -15px;
+}
+
+.catalog {
+    color: #9A6437;
+    font-size: 16px;
+    padding-left: 130px;/*150 должен быть, но не вышло*/
+}
+
+.catalog-title {
+    color: #000;
+    font-size: 42px;
+    padding-left: 130px;/*150 должен быть, но не вышло*/
+}
+
+@media (max-width: 1326px) {
+    .container .header {
+        max-width: 1326px;
+        margin-left: 0px;
+    }
+    
+    .p {
+        margin-left: -350px;
+    }
+
+    .btn-m {
+        margin-left: -350px;
+    }
+
+    .brands {
+        margin-left: -350px;
+    }
+
+    .image-main {
+        margin: 0 auto;
+    }
+
+    .round {
+        display: none;
+    }
+
+    .section {
+        margin: 0 auto;
+        width: 1326px;
+        background-color: #0C0C0C;
+        /*max-width: 1041px;*/
+        flex-grow: 1;
+        /*margin-top: 125px;*/
+        margin-bottom: 95px;
+        margin-top: -130px;
+    }
+
+    .div {
+        margin-right: 270px;
+    }
+
+    .h2 {
+        margin-left: -350px;
+    }
+
+    .kartocki {/*Здесь проблема!*/
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 1020px;
+    }
+
+    .second {
+        height: auto;
+        background-color: #fff;
+        margin-top: 80px;
+        margin-bottom: 117px;
+        width: 1020px;
+        margin: 0 auto;
+    }
+
+    .otstup{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 100px auto;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        width: 1020px;
+    }
+
+    .three-text {
+        margin: 0 auto
+    }
+
+    .three-img {
+        margin: 0 auto;
+        width: 744px;
+    }
+
+    .h3-h3 {
+        text-align: center;
+    }
+
+    .h2-h2 {
+        text-align: center;
+    }
+
+    .p-card-about {
+        text-align: center;
+    }
+
+    .podkartochki {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .btn-m-m {
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+
+    .kartochka-r {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+        width: 1020px;
+    }
+
+    .kartocki-r {
+        margin: 30px auto;
+    }
+
+    .six-div {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+        width: 1020px;
+    }
+
+    .btn-m-m-black {
+        transform: translateY(1300px);
+        margin: 0 auto;
+    }
+
+    .col-1 {
+        margin-top: 50px;
+    }
+
+    .seven {
+        width: 1020px;
+        background-color: #F4F4F4;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 111px;
+        margin-top: 86px;
+    }
+
+    .seven-div {
+        width: 954px;
+        padding-top: 45px;
+        padding-bottom: 45px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .pod-div {
+        padding-top: 100px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+        width: 1020px;
+    }
+
+    .inputs {
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+}
+@media (max-width: 1110px) {
+
+    /*.menu {
+        display: none;
+    }*/
+
+    .cart-search {
+        margin-right: 50px;
+    }
+
+    .h6 {
+        align-items: center;
+        text-align: center;
+        margin-left: 200px;
+    }
+
+    .stars {
+        display: none;
+    }
+    
+    .navbar-toggler {
+        display: block;
+    }
+
+    .container .header {
+        max-width: 1110px;
+    }
+    
+    .header {
+        text-align: center;
+        width: 1000px;
+    }
+
+    .logo-header {
+        margin-left: -300px;
+    }
+
+    .p {
+        margin-left: 100px;
+    }
+
+    .btn-m {
+        margin-left: 100px;
+    }
+
+    .h2 {
+        margin-left: 100px;
+    }
+
+    .brands {
+        margin-left: 100px;
+    }
+
+    .image-main {
+        margin: 0 auto;
+    }
+
+    .round {
+        display: none;
+    }
+
+    .section {
+        margin: 0 auto;
+        width: 853px;
+        background-color: #0C0C0C;
+        /*max-width: 1041px;*/
+        flex-grow: 1;
+        /*margin-top: 125px;*/
+        margin-bottom: 95px;
+        margin-top: -130px;
+    }
+
+    .div {
+        margin-left: 150px;
+    }
+
+    .h2 {
+        max-width: 609px;
+    }
+
+    .kartocki {/*Здесь проблема!*/
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 853px;
+    }
+
+    .second {
+        height: auto;
+        background-color: #fff;
+        margin-top: 80px;
+        margin-bottom: 117px;
+        width: 853px;
+        margin: 0 auto;
+    }
+
+    .otstup{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 100px auto;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        width: 853px;
+    }
+
+    .three-text {
+        margin: 0 auto
+    }
+
+    .three-img {
+        margin: 0 auto;
+        width: 744px;
+    }
+
+    .h3-h3 {
+        text-align: center;
+    }
+
+    .h2-h2 {
+        text-align: center;
+    }
+
+    .p-card-about {
+        text-align: center;
+    }
+
+    .podkartochki {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .btn-m-m {
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+
+    .kartochka-r {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+        width: 853px;
+    }
+
+    .kartocki-r {
+        margin: 30px auto;
+    }
+
+    .six-div {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+        width: 853px;
+    }
+
+    .btn-m-m-black {
+        transform: translateY(1300px);
+        margin: 0 auto;
+    }
+
+    .col-1 {
+        margin-top: 50px;
+    }
+
+    .seven {
+        width: 853px;
+        background-color: #F4F4F4;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 111px;
+        margin-top: 86px;
+    }
+
+    .seven-div {
+        width: 797px;
+        padding-top: 45px;
+        padding-bottom: 45px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .social {
+        margin: 0 auto;
+    }
+
+    .pod-div {
+        padding-top: 100px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+        width: 853px;
+    }
+
+    .inputs {
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+
+    .section {
+        margin: 0 auto;
+        width: 1110px;
+        background-color: #0C0C0C;
+        /*max-width: 1041px;*/
+        flex-grow: 1;
+        /*margin-top: 125px;*/
+        margin-bottom: 95px;
+        margin-top: -130px;
+    }
+}
+@media (max-width: 992px) {/*Долбусин Данил П-23*/
+    .cart-search {
+        margin-right: 50px;
+    }
+
+    .h6 {
+        align-items: center;
+        text-align: center;
+        margin-left: 200px;
+    }
+
+    .stars {
+        display: none;
+    }
+    
+    .navbar-toggler {
+        display: block;
+    }
+
+    .container .header {
+        max-width: 992px;
+    }
+    
+    .header {
+        text-align: center;
+        width: 1000px;
+    }
+
+    .logo-header {
+        margin-left: -300px;
+    }
+
+    .p {
+        margin-left: 100px;
+    }
+
+    .btn-m {
+        margin-left: 100px;
+    }
+
+    .h2 {
+        margin-left: 100px;
+    }
+
+    .brands {
+        margin-left: 100px;
+    }
+
+    .image-main {
+        margin: 0 auto;
+    }
+
+    .round {
+        display: none;
+    }
+
+    .section {
+        margin: 0 auto;
+        width: 992px;
+        background-color: #0C0C0C;
+        /*max-width: 1041px;*/
+        flex-grow: 1;
+        /*margin-top: 125px;*/
+        margin-bottom: 95px;
+        margin-top: -130px;
+    }
+
+    .div {
+        margin-left: 150px;
+    }
+
+    .h2 {
+        max-width: 609px;
+    }
+
+    .kartocki {/*Здесь проблема!*/
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+        width: 763px;
+    }
+
+    .second {
+        height: auto;
+        background-color: #fff;
+        margin-top: 80px;
+        margin-bottom: 117px;
+        width: 763px;
+        margin: 0 auto;
+    }
+
+    .otstup{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 100px auto;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        width: 992px;
+    }
+
+    .three-text {
+        margin: 0 auto
+    }
+
+    .three-img {
+        margin: 0 auto;
+        width: 744px;
+    }
+
+    .h3-h3 {
+        text-align: center;
+    }
+
+    .h2-h2 {
+        text-align: center;
+    }
+
+    .p-card-about {
+        text-align: center;
+    }
+
+    .podkartochki {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .btn-m-m {
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+
+    .kartochka-r {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+        width: 763px;
+    }
+
+    .kartocki-r {
+        margin: 30px auto;
+    }
+
+    .six-div {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+        width: 763px;
+    }
+
+    .btn-m-m-black {
+        transform: translateY(1300px);
+        margin: 0 auto;
+    }
+
+    .col-1 {
+        margin-top: 50px;
+    }
+
+    .seven {
+        width: 763px;
+        background-color: #F4F4F4;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 111px;
+        margin-top: 86px;
+    }
+
+    .seven-div {
+        width: 547px;
+        padding-top: 45px;
+        padding-bottom: 45px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .social {
+        margin: 0 auto;
+    }
+
+    .pod-div {
+        padding-top: 100px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+        width: 763px;
+    }
+
+    .inputs {
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+}
+@media (max-width: 768px) {
+    .cart-search {
+        margin-right: 50px;
+    }
+
+    .h6 {
+        align-items: center;
+        text-align: center;
+        margin-left: 86px;
+    }
+
+    .about {
+
+    }
+    .stars {
+        display: none;
+    }
+    
+    .navbar-toggler {
+        display: block;
+    }
+
+    .container .header {
+        max-width: 768px;
+    }
+    
+    .header {
+        text-align: center;
+        width: 768px;
+    }
+
+    .logo-header {
+        margin-left: -300px;
+    }
+
+    .p {
+        margin-left: 100px;
+    }
+
+    .btn-m {
+        margin-left: 100px;
+    }
+
+    .h2 {
+        margin-left: 100px;
+    }
+
+    .brands {
+        margin-left: -10px;
+    }
+
+    .image-main {
+        margin: 0 auto;
+    }
+
+    .round {
+        display: none;
+    }
+
+    .section {
+        margin: 0 auto;
+        width: 768px;
+        background-color: #0C0C0C;
+        /*max-width: 1041px;*/
+        flex-grow: 1;
+        /*margin-top: 125px;*/
+        margin-bottom: 95px;
+        margin-top: -130px;
+    }
+
+    .div {
+        margin-left: 50px;
+    }
+
+    .h2 {
+        max-width: 609px;
+    }
+
+    .kartocki {/*Здесь проблема!*/
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+        width: 590px;
+    }
+
+    .second {
+        height: auto;
+        background-color: #fff;
+        margin-top: 80px;
+        margin-bottom: 117px;
+        width: 763px;
+        margin: 0 auto;
+    }
+
+    .otstup{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 100px auto;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        width: 768px;
+    }
+
+    .three {
+        max-width: 768px;
+    }
+
+    .three-text {
+        margin: 0 auto;
+    }
+
+    .three-img {
+        margin: 0 auto;
+        width: 744px;
+    }
+
+    .h3-h3 {
+        text-align: center;
+    }
+
+    .h2-h2 {
+        text-align: center;
+    }
+
+    .p-card-about {
+        text-align: center;
+    }
+
+    .podkartochki {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .btn-m-m {
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+
+    .kartochka-r {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+        width: 763px;
+    }
+
+    .kartocki-r {
+        margin: 30px auto;
+    }
+
+    .six-div {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+        width: 763px;
+    }
+
+    .btn-m-m-black {
+        transform: translateY(1300px);
+        margin: 0 auto;
+    }
+
+    .col-1 {
+        margin-top: 50px;
+    }
+
+    .seven {
+        width: 590px;
+        background-color: #F4F4F4;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 111px;
+        margin-top: 86px;
+    }
+
+    .seven-div {
+        width: 551px;
+        padding-top: 45px;
+        padding-bottom: 45px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .logotip {
+        margin-left: 150px;
+    }
+
+    .social {
+        margin: 0 auto;
+    }
+
+    .pod-div {
+        padding-top: 100px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+        width: 590px;
+    }
+
+    .inputs {
+        margin-top: 100px;
+    }
+}
+@media (max-width: 600px) {
+    .cart-search {
+        margin-right: 50px;
+    }
+
+    .h6 {
+        align-items: center;
+        text-align: center;
+        margin-left: 10px;
+    }
+
+    .about {
+
+    }
+    .stars {
+        display: none;
+    }
+    
+    .navbar-toggler {
+        display: block;
+    }
+
+    .container .header {
+        max-width: 600px;
+    }
+    
+    .header {
+        text-align: center;
+        width: 600px;
+    }
+
+    .logo-header {
+        margin-left: -340px;
+    }
+
+    .p {
+        margin-left: 100px;
+    }
+
+    .btn-m {
+        margin-left: 100px;
+    }
+
+    .btn {
+        margin-right: -70px;
+    }
+
+    .h2 {
+        margin-left: 100px;
+    }
+
+    .brands {
+        margin-left: -10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 600px;
+    }
+
+    .image-main {
+        margin: 0 auto;
+    }
+
+    .round {
+        display: none;
+    }
+
+    .section {
+        margin: 0 auto;
+        width: 600px;
+        background-color: #0C0C0C;
+        /*max-width: 1041px;*/
+        flex-grow: 1;
+        /*margin-top: 125px;*/
+        margin-bottom: 95px;
+        margin-top: -130px;
+    }
+
+    .div {
+        margin-left: 0;
+    }
+
+    .h2 {
+        max-width: 500px;
+    }
+
+    .kartocki {/*Здесь проблема!*/
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+        width: 460px;
+    }
+
+    .second {
+        height: auto;
+        background-color: #fff;
+        margin-top: 80px;
+        margin-bottom: 117px;
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .otstup{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 100px auto;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        width: 600px;
+    }
+
+    .about {
+        max-width: 580px;
+        max-height: 580px;
+        margin-left: 10px;
+    }
+    .three {
+        max-width: 600px;
+    }
+
+    .three-text {
+        margin: 0 auto;
+    }
+
+    .three-img {
+        margin: 0 auto;
+        width: 600px;
+    }
+
+    .h3-h3 {
+        text-align: center;
+    }
+
+    .h2-h2 {
+        text-align: center;
+    }
+
+    .p-card-about {
+        text-align: center;
+    }
+
+    .podkartochki {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .btn-m-m {
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+
+    .kartochka-r {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+        width: 460px;
+    }
+
+    .kartocki-r {
+        margin: 30px auto;
+    }
+
+    .six-div {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+        width: 600px;
+    }
+
+    .btn-m-m-black {
+        transform: translateY(1150px);
+        margin: 0 auto;
+    }
+
+    .col-1 {
+        margin-top: 50px;
+    }
+
+    .img-podkart {
+        width: 580px;
+    }
+    .seven {
+        width: 460px;
+        background-color: #F4F4F4;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 111px;
+        margin-top: 86px;
+    }
+
+    .seven-div {
+        width: 429px;
+        padding-top: 45px;
+        padding-bottom: 45px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .logotip {
+        margin-left: 150px;
+    }
+
+    .social {
+        margin: 0 auto;
+    }
+
+    .pod-div {
+        padding-top: 100px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+        width: 460px;
+    }
+
+    .div-pages {
+        margin-left: 70px;
+        margin-right: 70px;
+        margin-top: 50px;
+    }
+    .inputs {
+        margin-top: 100px;
+    }
+}
+
+.show {
+    display: block;
+    text-align: center;
+}
+
+.navbar-toggler {
+    display: none;
+}

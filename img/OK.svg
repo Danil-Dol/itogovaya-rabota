@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+	<title>icons8-одноклассники-в-круге-64</title>
+	<defs>
+		<image  width="52" height="52" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA0AgMAAAC4FvN4AAAAAXNSR0IB2cksfwAAAAlQTFRFAAAA////DAwM3995MgAAAAN0Uk5TAP//RFDWIQAAANdJREFUeJyFkrsRwyAMhqWCOhXTJIU3CAVMaReM4H00AoWDHshH4ospfP4OPX5+CaEfzAC08w9T4c9qFBemY1OSK7nsFJJSq0waKKHogRyKUl4P7ehpnIiexol4pvVEJcwibEUpEhdWAoRSpKjMppS3SE74ruG5M3GDQcdfknZGcEGjg5F1NzJlRqbaaJxb6s16S6ck3g4tPqOLflBWraJ2Kun7hhaj8HpUIfEsUt5uHCRxfigjmUpoAKn6jM6JzdOcJz1vwbwhX9szb9a8dXbJxvxu6+nSB4GDbiO6TgM3AAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="6" y="6"/>
+</svg>
